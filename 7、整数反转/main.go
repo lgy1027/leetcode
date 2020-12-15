@@ -26,12 +26,10 @@ func main() {
 }
 
 func reverse(x int) int {
-	var nums, newnums int
+	var nums int
 	for x != 0 { //直到x等于0，跳出循环
 		a := x % 10
-		newnums = nums*10 + a
-
-		nums = newnums
+		nums = nums*10 + a
 		x = x / 10
 		MaxInt32 := 1<<31 - 1
 		MinInt32 := -1 << 31
