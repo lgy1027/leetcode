@@ -33,7 +33,7 @@ import "fmt"
 */
 
 func main() {
-	s := "sdasdwqefjs"
+	s := "jhyuy"
 	result := lengthOfLongestSubstring(s)
 	fmt.Println(result)
 }
